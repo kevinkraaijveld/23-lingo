@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.word-input {
+    margin-bottom: 20px;
+}
+
+.word-input label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.word-input input {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.word-input button {
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #3490dc;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.word-input button:hover {
+    background-color: #2779bd;
+}
+#guess-input{
+  display: initial;
+}
+#word-display {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.letter {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+.correct {
+    background-color: lightblue;
+}
+
+.wrong {
+    background-color: red;
+}
+
+.misplaced {
+    background-color: yellow;
+}
+#previous-guesses {
+    margin-top: 20px;
+}
+
+.guess {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.guess .letter {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+.guess .correct {
+    background-color: lightblue;
+}
+
+.guess .wrong {
+    background-color: red;
+}
+
+.guess .misplaced {
+    background-color: yellow;
+}

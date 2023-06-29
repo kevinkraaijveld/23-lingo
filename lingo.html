@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lingo Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Lingo Game</h1>
+        <div class="word-input">
+            <label for="guess-input">Enter a 5-letter word:</label>
+            <input type="text" id="guess-input" maxlength="5">
+            <button id="check-button" onclick="checkGuess()">Check</button>
+        </div>
+        <div id="word-display"></div>
+        <div id="previous-guesses"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
