@@ -8,9 +8,10 @@ The Lingo Game is a word guessing game where the player needs to guess a 5-lette
 
 Once the player guesses the correct word, a success message is displayed, and the option to retry the game is provided.
 
+## Demo
+You can try the Lingo Game [here](https://www.sololearn.com/compiler-playground/WWl6djy9zW3V).
 
 ## Usage
-
 Enter a 5-letter word in the input field.
 Click the "Check" button or press the "Enter" key to check your guess.
 The previous guesses and their feedback will be displayed below.
