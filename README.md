@@ -22,3 +22,15 @@ Click the "Retry" button to play the game again.
 ## Customization
 
 You can customize the game by modifying the wordList array in the JavaScript code. The array contains a list of 5-letter words from which the game selects a random word for the player to guess.
+
+Made by Kevin Kraaijveld
+
+Senior software developer student
+
+[Live version CMS system](https://kevii.nl/php/cms_system/)
+
+www.linkedin.com/in/kevinkraaijveld
+
+www.github.com/kevinkraaijveld
+
+https://www.sololearn.com/en/profile/6274601
