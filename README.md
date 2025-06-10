@@ -27,7 +27,7 @@ Made by Kevin Kraaijveld
 
 Senior software developer student
 
-[Live version CMS system](https://kevii.nl/php/cms_system/)
+[Live version CMS system](https://kevin.webprofit.site/opdrachten/10-lingo/lingo.html)
 
 www.linkedin.com/in/kevinkraaijveld
 
